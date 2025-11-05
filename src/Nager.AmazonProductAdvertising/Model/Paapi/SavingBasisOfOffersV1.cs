@@ -2,13 +2,12 @@
 
 namespace Nager.AmazonProductAdvertising.Model.Paapi;
 
-public class SavingBasis
+public class SavingBasisOfOffersV1
 {
-    public Money? Money { get; set; }
-    /*public double Amount { get; set; }
+    public double Amount { get; set; }
     public string? Currency { get; set; }
     public string? DisplayAmount { get; set; }
     public string? PriceType { get; set; }
     public string? PriceTypeLabel { get; set; }
-    public double PricePerUnit { get; set; }*/
+    public double PricePerUnit { get; set; }
 }

@@ -7,7 +7,7 @@
         public string? DetailPageURL { get; set; }
         public ItemInfo? ItemInfo { get; set; }
         public Images? Images { get; set; }
-        public Offers? Offers { get; set; }
+        public OffersV2? OffersV2 { get; set; }
         public VariationAttribute[]? VariationAttributes { get; set; }
         public BrowseNodeInfo? BrowseNodeInfo { get; set; }
     }

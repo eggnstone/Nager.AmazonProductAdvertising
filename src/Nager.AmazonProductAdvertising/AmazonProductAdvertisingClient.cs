@@ -130,7 +130,7 @@ public class AmazonProductAdvertisingClient
             "SearchRefinements"
         };
 
-        return SearchItemsAsync(resources, keyword);
+        return SearchItemsAsync(resources, keyword, null);
     }
 
     /// <summary>
@@ -138,10 +138,11 @@ public class AmazonProductAdvertisingClient
     /// </summary>
     /// <param name="resources"></param>
     /// <param name="keyword"></param>
+    /// <param name="itemPage"></param>
     /// <returns></returns>
-    public async Task<SearchItemResponse> SearchItemsAsync(string[] resources, string keyword)
+    public async Task<SearchItemResponse> SearchItemsAsync(string[] resources, string keyword, int? itemPage)
     {
-        var request = new SearchRequest(keyword) { Resources = resources };
+        var request = new SearchRequest(keyword) { Resources = resources, ItemPage = itemPage };
         return await SearchItemsAsync(request);
     }
 
