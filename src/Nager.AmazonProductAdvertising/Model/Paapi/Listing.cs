@@ -10,7 +10,7 @@
         public Price? Price { get; set; }
         public ProgramEligibility? ProgramEligibility { get; set; }
         public bool ViolatesMAP { get; set; }
-        public SavingBasis? SavingBasis { get; set; }
+        //public SavingBasis? SavingBasis { get; set; }
         public Promotion[]? Promotions { get; set; }
         public bool IsBuyBoxWinner { get; set; }
     }

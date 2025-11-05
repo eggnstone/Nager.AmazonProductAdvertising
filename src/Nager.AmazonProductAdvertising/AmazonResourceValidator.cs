@@ -32,6 +32,7 @@
                 { "ItemInfo.TechnicalInfo", new [] { "SearchItems", "GetItems", "GetVariations" } },
                 { "ItemInfo.Title", new [] { "SearchItems", "GetItems", "GetVariations" } },
                 { "ItemInfo.TradeInInfo", new [] { "SearchItems", "GetItems", "GetVariations" } },
+                /*
                 { "Offers.Listings.Availability.MaxOrderQuantity", new [] { "SearchItems", "GetItems", "GetVariations" } },
                 { "Offers.Listings.Availability.Message", new [] { "SearchItems", "GetItems", "GetVariations" } },
                 { "Offers.Listings.Availability.MinOrderQuantity", new [] { "SearchItems", "GetItems", "GetVariations" } },
@@ -53,6 +54,8 @@
                 { "Offers.Summaries.HighestPrice", new [] { "SearchItems", "GetItems", "GetVariations" } },
                 { "Offers.Summaries.LowestPrice", new [] { "SearchItems", "GetItems", "GetVariations" } },
                 { "Offers.Summaries.OfferCount", new [] { "SearchItems", "GetItems", "GetVariations" } },
+                */
+                { "OffersV2.Listings.Price", new [] { "SearchItems", "GetItems", "GetVariations" } },
                 { "ParentASIN", new [] { "SearchItems", "GetItems", "GetVariations" } },
                 { "RentalOffers.Listings.Availability.MaxOrderQuantity", new [] { "SearchItems", "GetItems", "GetVariations" } },
                 { "RentalOffers.Listings.Availability.Message", new [] { "SearchItems", "GetItems", "GetVariations" } },
